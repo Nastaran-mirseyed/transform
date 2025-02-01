@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 20px;
+    align-content: center;
+}
+.one {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.one1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.one1:hover {
+    transition: all 3s ease;
+    transform: rotate(45deg);
+}
+.two {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.two1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.two1:hover {
+    transition: all 2s ease;
+    transform: scaleX(0.5);
+}
+.three {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.three1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.three1:hover {
+    transition: all 2s ease;
+    transform: scaleY(0.5)
+}
+.four {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.four1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.four1:hover {
+    transition: all 2s ease;
+    transform: scale(2);
+    opacity: 0.5;
+}
+.five {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.five1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.five1:hover {
+    transition: all 3s ease;
+    transform: scaleX(2);
+    opacity: 0.5;
+}
+.six {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.six1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.six1:hover {
+    transition: all 2s ease;
+    transform: translateX(50px);
+}
+.seven {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.seven1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.seven1:hover {
+    transition: all 3s ease;
+    transform: translate(50px,50px);
+}
+.eight {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.eight1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.eight1:hover {
+    transition: all 2s ease;
+    transform: skewX(45deg);
+}
+.nine {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nine1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.nine1:hover {
+    transition: all 2s ease;
+    transform: skewX(-45deg);
+}
+.ten {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ten1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.ten1:hover {
+    transition: all 2s ease;
+    transform: scaleY(2);
+}
+.eleven {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.eleven1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.eleven1:hover {
+    transition: all 2s ease;
+    transform: translateY(50px);
+}
+.twelve {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.twelve1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.twelve1:hover {
+    transition: all 2s ease;
+    transform: scale(1.5) skew(-45deg);
+    opacity: 0.5;
+}
+.thirteen {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.thirteen1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+}
+.thirteen1:hover {
+    transition: all 2s ease;
+    transform: perspective(200px);
+}
+
