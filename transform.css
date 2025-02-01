@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 20px;
+    align-content: center;
+}
+.one {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.one1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 3s ease;
+}
+.one1:hover {
+    transform: rotate(45deg);
+}
+.two {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.two1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.two1:hover {
+    transform: scaleX(0.5);
+}
+.three {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.three1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.three1:hover {
+    transform: scaleY(0.5)
+}
+.four {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.four1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.four1:hover {
+    transform: scale(2);
+    opacity: 0.5;
+}
+.five {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.five1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 3s ease;
+}
+.five1:hover {
+    transform: scaleX(2);
+    opacity: 0.5;
+}
+.six {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.six1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.six1:hover {
+    transform: translateX(50px);
+}
+.seven {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.seven1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 3s ease;
+}
+.seven1:hover {
+    transform: translate(50px,50px);
+}
+.eight {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.eight1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.eight1:hover {
+    transform: skewX(45deg);
+}
+.nine {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nine1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.nine1:hover {
+    transform: skewX(-45deg);
+}
+.ten {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ten1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.ten1:hover {
+    transform: scaleY(2);
+}
+.eleven {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.eleven1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.eleven1:hover {
+    transform: translateY(50px);
+}
+.twelve {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.twelve1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.twelve1:hover {
+    transform: scale(1.5) skew(-45deg);
+    opacity: 0.5;
+}
+.thirteen {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+    
+}
+.thirteen1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 1s ease;
+    transform-origin: center;
+}
+.thirteen1:hover {
+    transform: rotatey(45deg);
+}
+.fourteen {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+}
+.fourteen1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 1s ease;
+    transform-origin: center;
+}
+.fourteen1:hover {
+    transform: rotatex(45deg);
+}
+.fifteen {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+}
+.fifteen1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 1s ease;
+    transform-origin: bottom;
+}
+.fifteen1:hover {
+    transform: rotatex(45deg);
+}
+.sixteen {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sixteen1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 1s ease;
+    transform-origin: top right;
+}
+.sixteen1:hover {
+    transform: rotate(45deg);
+    
+}
+.seventeen {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.seventeen1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 1s ease;
+    transform-origin: bottom left;
+}
+.seventeen1:hover {
+    transform: rotate(45deg);
+}
+.nineteen {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+}
+.nineteen1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 1s ease;
+    transform-origin: top;
+}
+.nineteen1:hover {
+    transform: rotatex(45deg);
+}
+.twenty {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+}
+.twenty1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+    transform-origin: left;
+}
+.twenty1:hover {
+    transform: rotatey(45deg);
+}
+.twenty-one {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.twenty-one1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 1s ease;
+}
+.twenty-one1:hover {
+    transform: scaleX(2) translateX(20px)
+}
+.twenty-two {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.twenty-two1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.twenty-two1:hover {
+    transform: scaleX(2) translateX(-20px);
+}
+.twenty-three {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.twenty-three1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.twenty-three1:hover {
+    transform: scale(2) translateX(30px) translateY(-20px);
+}
+.twenty-four {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.twenty-four1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.twenty-four1:hover {
+    transform: scale(2) translateX(-30px) translateY(20px)
+}
+.twenty-five {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+}
+.twenty-five1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+    transform-origin: right;
+}
+.twenty-five1:hover {
+    transform: rotatey(45deg);
+}
+.twenty-six {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.twenty-six1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.twenty-six1:hover {
+    transform: scaleY(2) translateY(-20px);
+}
+.twenty-seven {
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.twenty-seven1 {
+    background-color: blueviolet;
+    height: 70px;
+    width: 100px;
+    transition: all 2s ease;
+}
+.twenty-seven1:hover {
+    transform: scaleY(2) translateY(20px);
+}
+
